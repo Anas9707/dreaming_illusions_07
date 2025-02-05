@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreaming Illusions</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS for styling -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Dreaming Illusions</h1> <!-- Logo/Blog name -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle">Toggle Theme</button> <!-- Dark/Light Theme Toggle -->
+    </header>
+
+    <!-- Main Section with Latest Posts -->
+    <main>
+        <section class="latest-posts">
+            <h2>Latest Posts</h2>
+            <article class="post-preview">
+                <img src="image1.jpg" alt="Post Image">
+                <div class="post-info">
+                    <h3><a href="#">Post Title 1</a></h3>
+                    <p>Brief description of the post...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="post-preview">
+                <img src="image2.jpg" alt="Post Image">
+                <div class="post-info">
+                    <h3><a href="#">Post Title 2</a></h3>
+                    <p>Brief description of the post...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Sidebar (Optional) -->
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Latest Events</a></li>
+                <li><a href="#">Popular Topics</a></li>
+            </ul>
+            <h3>Search</h3>
+            <input type="text" placeholder="Search...">
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Dreaming Illusions. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <form class="newsletter">
+                <label for="email">Subscribe to our Newsletter:</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- External JS for interactive features -->
+</body>
+</html>
